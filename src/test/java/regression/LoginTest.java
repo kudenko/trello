@@ -10,10 +10,9 @@ public class LoginTest extends BrowserFactory {
     BoardsPage boardsPage = new BoardsPage();
 
     @Test
-    public void login() throws InterruptedException {
+    public void login() {
         loginPage.open();
         loginPage.login("jubekamefa@first-mail.info", "312312312a");
         boardsPage.openBoard("/b/Ad39BPpI/first-table");
-        Thread.sleep(10000);
     }
 }
