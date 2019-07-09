@@ -1,0 +1,8 @@
+<suite name="MyAwsomeSuite" parallel="false">
+    <test name="MyFirstTest">
+        <classes>
+            <class name="regression.LoginTest">
+            </class>
+        </classes>
+    </test>
+</suite>

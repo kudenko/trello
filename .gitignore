@@ -3,3 +3,5 @@
 *.iml
 out*
 /target/*
+allure-report/
+allure-results/
